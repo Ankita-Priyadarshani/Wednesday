@@ -21,11 +21,11 @@ def speak(audio):
 def wishMe():
     hour = int(datetime.datetime.now().hour)
     if 0 <= hour < 12:
-        speak("Good Morning! Hi, I am Jarvis. Please tell me how may I help you!")
+        speak("Good Morning! Hi, I am Wednesday. Please tell me how may I help you!")
     elif 12 <= hour < 18:
-        speak("Good Afternoon! Hi, I am Jarvis. Please tell me how may I help you!")
+        speak("Good Afternoon! Hi, I am Wednesday. Please tell me how may I help you!")
     else:
-        speak("Good Evening! Hi, I am Jarvis. Please tell me how may I help you!")
+        speak("Good Evening! Hi, I am Wednesday. Please tell me how may I help you!")
     strTime = datetime.datetime.now().strftime("%H:%M:%S")
     speak(f"Sir, the time right now is {strTime}")
 
